@@ -1,3 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: devns
+---
 service:
     name: harness_guestbook
     identifier: harnessguestbook
